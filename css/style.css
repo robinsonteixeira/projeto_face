@@ -1,0 +1,328 @@
+body {
+
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.menu_topo{
+
+	height: 42px;
+	background-color: #4267b2;
+	display: flex;
+	align-items:center;
+	
+}
+
+	.menu_le{
+
+		display: flex;
+		padding-left: 14px;
+		width: 703px;
+	}
+
+
+		.icon_face{
+
+			display: flex;
+			margin-right: 7px;
+		}	
+
+		.icon_face a{
+
+		}
+
+		.pesquisa{
+
+			display: flex;
+			height: 24px;
+		}
+
+
+		.pesquisa input{
+
+			width: 400px;
+	
+		}
+
+
+		.rosto{
+
+			display: flex;
+			padding-left: 110px;
+
+		}
+
+		.rosto_nome{
+
+			display: flex;
+			align-items:center;
+			color: #fff;
+			font-family: arial;
+			font-size: 13px;
+	
+		}
+
+		.rosto_nome a{
+
+			text-decoration: none;
+			color: #fff;
+
+		}
+
+		.barra{
+
+			border-right: 2px solid #3b5c9f;
+			padding-left: 6px;
+
+		}
+
+
+	.menu_ld{
+
+		display: flex;
+		padding: 7px;
+	}
+
+		.icon_mudarconta{
+
+			display: flex;
+			align-items:center;
+		}
+
+
+		.pagina_inicial{
+
+			display: flex;
+			align-items:center;
+		}
+
+		.pagina_inicial a{
+
+			text-decoration: none;
+			color: #fff;
+			font-family: arial;
+			font-size: 13px;
+		}
+
+		.barra0{
+
+			border-left: 2px solid #3b5c9f;
+			padding-left: 6px;
+
+		}
+
+
+		.barra1{
+
+			border-right: 2px solid #3b5c9f;
+			padding-left: 10px;
+
+		}
+
+		.icon_solicitacaoamizade{
+
+			display: flex;
+			align-items:center;
+			padding: 6px;
+
+		}
+
+		.icon_messenger{
+
+			display: flex;
+			align-items:center;
+			padding: 6px;
+
+		}
+
+
+		.icon_notificacao{
+
+			display: flex;
+			align-items:center;
+			padding: 6px;
+
+		}
+
+
+		.icon_ajudarapida{
+
+			display: flex;
+			align-items:center;
+			padding: 6px;
+		}
+
+
+		.icon_config{
+
+			display: flex;
+			align-items:center;
+			padding: 6px;
+
+		}
+
+
+
+/* -----------------------------------------------------------*/
+
+.container{
+
+	background-color: #e9ebee;
+	height:1000px;
+	padding-top: 15px;
+	display: flex;
+}
+
+
+
+	.container_le{
+
+		width: 1045px;
+		height: 800px;
+		display: flex;
+	}
+
+		.container_le_01{
+
+			width: 195px;
+			height: 800px;
+			background-color: #e9ebee;
+			margin-right: 13px;
+		}
+
+		.container_le_02{
+
+			width: 500px;
+			height: 800px;
+			background-color: #e9ebee;
+			margin-right: 13px;
+		}
+
+			.container_le_02a{
+
+				height: 150px;
+				background-color: #fff;
+				border: 2px solid #dddfe2;
+				
+			}
+
+				.container_le_02a1{
+
+					height: 28px;
+					background-color: #f6f7f9;
+					border-bottom: 2px solid #dddfe2;		
+				}
+
+				.container_le_02a2{
+
+					height: 70px;
+					border-bottom: 2px solid #dddfe2;
+					margin-left: 12px;
+					margin-right: 12px;
+				}
+
+				.container_le_02a3{
+
+					height: 50px;
+					margin-left: 12px;
+					margin-right: 12px;
+				}
+
+			.container_le_02b{
+
+				height: 510px;
+				background-color: #fff;
+				border: 2px solid #dddfe2;
+				margin-top: 12px;
+
+			}
+
+				.container_le_02b1{
+
+					height: 90px;
+					display: flex;
+					
+				}
+
+					.container_le_02b1a{
+
+						padding-left: 12px;
+						padding-top: 12px;
+						height: 42px;
+						
+
+					}
+
+					.container_le_02b1b {
+
+						padding-left: 12px;
+						padding-top: 20px;					
+						color: #365899;
+						font-family: arial;
+						font-size: 15px;
+						
+					}
+
+					.container_le_02b1c{
+
+						position: absolute;
+						height: 20px;
+						margin-top: 60px;
+						padding-left: 20px;
+					}
+
+						.container_le_02b1c1{
+
+							font-family: arial;
+							font-size: 14px;
+						}
+
+				.container_le_02b2{
+
+					height: 260px;
+
+				}	
+
+				.container_le_02b3{
+
+					height: 60px;
+					background-color: #f2f3f5;
+					border-bottom: 2px solid #dddfe2;
+				}
+
+				.container_le_02b4{
+
+					height: 60px;
+					border-bottom: 2px solid #dddfe2;
+				}
+
+				.container_le_02b5{
+
+					height: 40px;
+				}
+
+
+		.container_le_03{
+
+
+			width: 310px;
+			height: 800px;
+			background-color: #a1230e;
+			margin-right: 23px;
+		}
+
+/*------------------------------------------------------*/
+
+	.container_ld{
+	
+		width: 215px;
+		height: 800px;
+		border-left: 2px solid #cccccc;
+	}
+
+		.container_ld_01{
+
+		}

@@ -113,5 +113,24 @@
 			</div>
 		</div>
 	</article>	
+
+	<input type="text" name="campo1" id="campo1"/></br></br>
+	<input type="text" name="campo2" id="campo2"/></br></br>
+	<button onclick="somar()">Calcular</button>
+
+	<script type="text/javascript">
+
+		function somar () {
+			
+			var campo1 =  parseInt(document.getElementById("campo1").value);
+			var campo2 =  parseInt(document.getElementById("campo2").value);
+
+			var soma = campo1 *campo2;
+			alert("A soma é "+soma);
+
+		}
+	</script>
+
+</div>
 </body>
 </html>
